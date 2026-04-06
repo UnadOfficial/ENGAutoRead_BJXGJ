@@ -1,0 +1,50 @@
+{
+  "microphone_position": {
+    "x": 627,
+    "y": 2050,
+    "_comment": "麦克风按钮位置（直接像素坐标）"
+  },
+  "stop_button_position": {
+    "x": 627,
+    "y": 2050,
+    "_comment": "停止录音按钮位置（直接像素坐标）"
+  },
+  "continue_button_position": {
+    "x": 620,
+    "y": 2640,
+    "_comment": "继续按钮位置（直接像素坐标）"
+  },
+  "word_region": {
+    "top": 700,    
+    "bottom": 1495, 
+    "left": 38,  
+    "right": 1225, 
+    "_comment": "单词显示区域 top左上角y坐标，bottom右下角y坐标，left左上角x坐标，right右下角x坐标"
+  },
+  "tesseract": {
+    "path": "F:\\Soft\\tocr\\tesseract.exe",
+    "_comment": "Tesseract OCR路径，留空使用默认PATH"
+  },
+  "tts_settings": {
+    "engine": "kokoro",
+    "_comment": "TTS引擎选择：'windows'使用Windows系统TTS，'kokoro'使用Kokoro-82M",
+    "language": "en-US",
+    "speed": 1.0,
+    "pitch": 1.0,
+    "kokoro_voice": "zm_yunjian",
+    "_comment2": "Kokoro音色：zf_xiaobei,zf_xiaoni,zf_xiaoxiao,zf_xiaoyi,zm_yunjian,zm_yunxi,zm_yunxia,zm_yunyang"
+  },
+  "recording_settings": {
+    "duration": 5.0,
+    "post_recording_delay": 3.0,
+    "_comment": "录音时长（秒），post_recording_delay为录音完毕后等待时间"
+  },
+  "debug_settings": {
+    "save_screenshots": true,
+    "verbose_config": false,
+    "_comment": "save_screenshots: 是否保存调试图片，verbose_config: 是否显示详细配置信息"
+  },
+  "screenshot_delay": 0.5,
+  "tts_duration": 2.5,
+  "click_delay": 0.3
+}
